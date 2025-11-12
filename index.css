@@ -1429,6 +1429,11 @@ a
 }
 
 /***footer section***/
+.footer-sub-container-1
+{
+  justify-content: center;
+  align-items: center;
+}
 .footer-name
 {
   font-size: 3.604vw;
@@ -1467,7 +1472,7 @@ a
 .footer-media
 {
   margin-top: -8px;
-  font-size: 1.042vw;  
+  font-size: 1.342vw;  
   text-align: center;
   font-weight: 650;
 }
