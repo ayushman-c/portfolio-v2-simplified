@@ -1235,7 +1235,7 @@ a
 /***projectssection****/
 .project-design-1
 {
-  scale: 3;
+  scale: 1.5;
 }
 .project-list
 {
@@ -1427,6 +1427,27 @@ a
 {
   scale: 3;
 }
+
+/***footer section***/
+.footer-name
+{
+  font-size: 3.604vw;
+  font-weight: 650;
+  text-align: center;
+}
+.footer-mail
+{
+  font-size: 3.604vw;
+  font-weight: 650;
+  text-align: center;
+
+}
+.footer-desc
+{
+  font-size: 1.042vw;
+  font-weight: 300;
+  text-align: center;
+}
 .footer-container
 {
   margin-top: 70px;
@@ -1445,11 +1466,18 @@ a
 }
 .footer-media
 {
+  margin-top: -8px;
+  font-size: 1.042vw;  
   text-align: center;
+  font-weight: 650;
 }
 .footer-desc
 {
   font-size: 18px;
+}
+.copyright
+{
+  margin-bottom: 45px;
 }
 }
 
