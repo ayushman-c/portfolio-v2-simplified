@@ -1,0 +1,1455 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #282c33;
+  font-family: "Fira Code", monospace;
+  scroll-behavior: smooth;
+}
+a
+{
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.main-container
+{
+    z-index: 1000;
+    position: fixed;
+    left: 0.833vw;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.833vw;
+}
+.bar
+{
+    height: 9.948vw;
+    width: 0.26vw;
+    background-color: #abb2bf;
+}
+.github
+{
+    background: url(./assests/github\ \(4\).png);
+    height: 1.667vw;
+    width: 1.667vw;
+    background-size: cover;
+    cursor: pointer;
+}
+.twitter
+{
+    background: url(./assests/twitter\ \(2\).png);
+    height: 1.667vw;
+    width: 1.667vw;
+    background-size: cover;
+    cursor: pointer;
+
+}
+.linkedin
+{
+    background: url(./assests/linkedin\ \(1\).png);
+    height: 1.667vw;
+    width: 1.667vw;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+
+
+/***navbar-component****/
+.navbar-main-container
+{
+  z-index: 100;
+  position: fixed;
+  padding-top:1.302vw ;
+  padding-left: 10.677vw;
+  padding-right: 10.677vw;
+  top: 0vw  ;
+  justify-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.navbar-container
+{
+  height: 5.208vw;
+  color: white;
+  font-size: 1.233vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.name-logo
+{
+  width: 15%;
+  display: flex;
+  gap: 0.833vw;
+  align-items: center;
+  font-size: 1.542vw;
+  font-weight: 650;
+
+}
+.logo
+{
+  background: url(./assests/Style=Default.png);
+  height: 2.708vw;
+  width: 2.708vw;
+  background-size: cover;
+}
+.icons
+{
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.646vw;
+}
+.icons > *
+{
+  display: flex;
+  gap: 0.208vw;
+  font-weight: 550;
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+.hash
+{
+  color: plum;
+  font-weight: 550;
+    text-decoration: none;
+
+}
+.text
+{
+  width: 6.208vw;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+/****hero-section-1***/
+.main-container-1
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10.646vw;
+  margin-top: 12.813vw;
+  
+}
+.description
+{
+  color: whitesmoke;
+  scale: 1.1;
+}
+.bigheading
+{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  gap: 0.521vw;
+  flex-wrap: wrap;
+  width: 32.073vw;
+  
+
+}
+.txt1
+{
+  font-size: 1.967vw;
+  font-weight: 550;
+}
+.txt2-color
+{
+  font-size: 1.967vw;
+  font-weight: 550;
+  color: #c778dd;
+}
+.txt2-color-fedev
+{
+  color: #c778dd;
+  font-size: 1.967vw;
+  font-weight: 550;
+  display:inline-block;
+}
+.small-description
+{
+  margin-top: 2.823vw;
+  font-size: 1.042vw;
+    width: 32.073vw;
+  color: #abb2bf;
+}
+.contact
+{
+  margin-top: 2.823vw;
+  width:9.708vw ;
+  height: 2.527vw;
+  font-size: 0.933vw;
+  border: 2px solid #c778dd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.picture-container
+{
+  scale: 1.1;
+}
+.picture
+{
+  background: url(./assests/Group\ 46.png);
+  height: 22.104vw;
+  width: 26.427vw;
+  background-size: cover;
+}
+.description-pic-container
+{
+  margin-top: 0.521vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.521vw;
+}
+.pic-box
+{
+  background: url(./assests/Rectangle\ 27.png);
+  width: 0.833vw;
+  height: 0.833vw;
+  background-size: cover;
+  border: 2px solid black;
+}
+.description-pic
+{
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.938vw;
+  
+}
+
+
+/***quote-section***/
+.quote-main-container
+{
+  margin-top: 7.813vw;
+  margin-bottom: 7.813vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.design-1
+{
+  scale: 0.7;
+  background: url(./design_assest/Frame\ 28.png);
+  height:9.854vw ;
+  width: 5.01vw;
+  background-size: cover;
+}
+.quote-container
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.quote
+{
+  scale: 1.2;
+  height: 4.948vw;
+  width: 26.667vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25vw;
+  color: white;
+  border: 0.078vw solid whitesmoke;
+}
+.author-container
+{
+  font-size: 1.198vw;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 1.563vw;
+}
+.design-2
+{
+  height:4.948vw ;
+  width: 4.74vw;
+  background-size: cover;
+  border: 0.104vw solid whitesmoke;
+}
+
+
+/***porject-section***/
+.project-container
+{
+  margin-left: 17.021vw;
+  display: flex;
+  align-items: center;
+  gap: 1.781vw;
+}
+.project-heading
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.286vw;
+}
+.project-hash
+{
+  font-size: 2.302vw;
+  color: #c778dd;
+}
+.project-txt
+{
+  font-size: 2.302vw;
+  color: aliceblue;
+}
+.project-line
+{
+  height: 1px;
+  width: 31.25vw;
+  background-color: #c778dd;
+}
+
+.project-main-container
+{
+  display: flex;
+  justify-content: space-between;
+  align-items:start;
+  margin-bottom: 7.813vw;
+}
+.project-design-1
+{
+  scale: 0.7;
+  background: url(./design_assest/Frame\ 28.png);
+  height:8.854vw ;
+  width: 4.01vw;
+  background-size: cover;
+}
+.project-list
+{
+  margin-top: 2.604vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.042vw;
+}
+
+.project-1
+{
+  border: 0.078vw solid whitesmoke;
+}
+.project-1-pic
+{
+  background: url(./project_asset/ChatGPT\ Image\ Nov\ 1\,\ 2025\,\ 10_01_02\ PM.png);
+  width: 20.188vw;
+  height: 13.938vw;
+  background-size: cover;
+  border-bottom:0.078vw solid white;
+}
+.project-1-tech-stack
+{
+  padding-left: 0.765vw;
+  color: aliceblue;
+  font-size: 1.033vw;
+  height: 1.963vw;
+  display: flex;
+  align-items: center;
+  border-bottom:0.078vw solid white;
+    color: #abb2bf;
+
+}
+.project-1-heading
+{
+  padding-left: 0.721vw;
+  color: aliceblue;
+  margin-top: 1.042vw;
+  font-size: 1.55vw;
+}
+.project-1-description
+{
+  padding-left: 0.721vw;
+  margin-top: 0.781vw;
+  color: white;
+  font-size: 1.033vw;
+    color: #abb2bf;
+
+}
+.project-1-link
+{
+  margin-left: 0.721vw;
+  margin-bottom: 0.781vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.042vw;
+  font-size: 1.042vw;
+  height: 2.083vw;
+  width: 6.25vw;
+  border: 0.083vw solid #c778dd;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.project-2
+{
+  border: 0.078vw solid whitesmoke;
+    width: 20.188vw;
+
+}
+.project-2-pic
+{
+  background: url(./project_asset/munsi_ai_thumbnail_330x201.png);
+  width: 20.188vw;
+  height: 13.938vw;
+  background-size: cover;
+  border-bottom:0.078vw solid white;
+}
+.project-2-tech-stack
+{
+  padding-left: 0.765vw;
+  color: aliceblue;
+  font-size: 1.033vw;
+  height: 1.963vw;
+  display: flex;
+  align-items: center;
+  border-bottom:0.078vw solid white;
+    color: #abb2bf;
+
+}
+.project-2-heading
+{
+  padding-left: 0.721vw;
+  color: aliceblue;
+  margin-top: 1.042vw;
+  font-size: 1.55vw;
+}
+.project-2-description
+{
+  padding-left: 0.721vw;
+  margin-top: 0.781vw;
+  color: white;
+  font-size: 1.033vw;
+  color: #abb2bf;
+
+}
+.project-2-link
+{
+  margin-left: 0.721vw;
+  margin-bottom: 0.781vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.042vw;
+  font-size: 1.042vw;
+  height: 2.083vw;
+  width: 6.25vw;
+  border: 0.083vw solid #c778dd;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.project-3
+{
+  border: 0.078vw solid whitesmoke;
+}
+.project-3-pic
+{
+  background: url(./project_asset/ChatGPT\ Image\ Nov\ 11\,\ 2025\,\ 10_53_22\ PM.png);
+  width: 20.188vw;
+  height: 13.938vw;
+  background-size: cover;
+  border-bottom:0.078vw solid white;
+}
+.project-3-tech-stack
+{
+  padding-left: 0.765vw;
+  color: aliceblue;
+  font-size: 1.033vw;
+  height: 1.963vw;
+  display: flex;
+  align-items: center;
+  border-bottom:0.078vw solid white;
+  color: #abb2bf;
+
+}
+.project-3-heading
+{
+  padding-left: 0.721vw;
+  color: aliceblue;
+  margin-top: 1.042vw;
+  font-size: 1.55vw;
+}
+.project-3-description
+{
+  padding-left: 0.721vw;
+  margin-top: 0.781vw;
+  color: white;
+  font-size: 1.033vw;
+  color: #abb2bf;
+
+}
+.project-3-link
+{
+  margin-left: 0.721vw;
+  margin-bottom: 0.781vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.042vw;
+  font-size: 1.042vw;
+  height: 2.083vw;
+  width: 6.25vw;
+  border: 0.083vw solid #c778dd;
+  color: aliceblue;
+  cursor: pointer;
+
+}
+
+
+
+.project-design-2
+{
+  display: flex;
+  justify-content:end;
+  align-items: center;
+}
+.design-pr2
+{
+  height: 7.813vw;
+  width: 3.125vw;
+  border: 1px solid whitesmoke;
+  border-right: none;
+}
+
+
+
+
+/***skills**/
+.skill-container
+{
+  margin-top: 0px;
+  margin-left: 17.021vw;
+  display: flex;
+  align-items: center;
+  gap: 1.781vw;
+}
+.skill-heading
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.286vw;
+}
+.skill-hash
+{
+  font-size: 2.302vw;
+  color: #c778dd;
+}
+.skill-txt
+{
+  font-size: 2.302vw;
+  color: aliceblue;
+}
+.skill-line
+{
+  height: 1px;
+  width: 31.25vw;
+  background-color: #c778dd;
+}
+.skills-main-container
+{
+  margin-bottom: 5.208vw;
+}
+/****skills section**/
+
+.skills-main-container
+{
+  margin-top: 2.344vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5.208vw;
+}
+
+.skills-designs-1
+{
+  width:4.219vw ;
+  height: 4.219vw;
+  background: url(./design_assest/Dots.png);
+  background-size: cover;
+}
+.skills-designs-2
+{
+  width:4.219vw ;
+  height: 4.219vw;
+  background: url(./design_assest/Dots.png);
+  background-size: cover;
+}
+.skills-design-container
+{
+  background: url(./design_assest/Group\ 36.png);
+  height: 16.988vw;
+  width:20.929vw ;
+  background-size: cover;
+}
+.skills-box-subcontainer-1
+{
+  margin-top: -1.302vw;
+  display: flex;
+  align-content: start;
+  justify-content: start;
+  gap: 0.521vw;
+}
+.skills-box-container-2
+{
+  display: flex;
+  justify-content: end;
+  margin-top: 0.521vw;
+}
+.skill1
+{
+  color: white;
+  font-size: 1.042vw;
+  width:9.271vw ;
+  border: 1px solid white;
+}
+.skills-heading-1
+{
+  height: 1.354vw;
+  border-bottom: 1px solid white;
+  padding-left: 0.521vw;
+
+}
+.skills-body-1
+{
+  height: 3.646vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.521vw;
+    color: #abb2bf;
+
+}
+
+.skill2
+{
+  color: white;
+  font-size: 1.042vw;
+  width:9.271vw ;
+  border: 1px solid white;
+}
+.skills-heading-2
+{
+  height: 1.354vw;
+  border-bottom: 1px solid white;
+  padding-left: 0.521vw;
+
+}
+.skills-body-2
+{
+  height: 4.646vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.521vw;
+    color: #abb2bf;
+
+}
+
+.skill3
+{
+  color: white;
+  font-size: 1.042vw;
+  width:9.271vw ;
+  border: 1px solid white;
+}
+.skills-heading-3
+{
+  height: 1.354vw;
+  border-bottom: 1px solid white;
+  padding-left: 0.521vw;
+
+}
+.skills-body-3
+{
+  height: 5.646vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.521vw;
+    color: #abb2bf;
+
+}
+
+.skill4
+{
+  color: white;
+  font-size: 1.042vw;
+  width:9.271vw ;
+  border: 1px solid white;
+}
+.skills-heading-4
+{
+  height: 1.354vw;
+  border-bottom: 1px solid white;
+  padding-left: 0.521vw;
+
+}
+.skills-body-4
+{
+  height: 3.646vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.521vw;
+    color: #abb2bf;
+
+}
+
+
+/***about-me****/
+.about-container
+{
+  margin-top: 150px;
+  margin-bottom: 40px;
+  margin-left: 17.021vw;
+  display: flex;
+  align-items: center;
+  gap: 1.781vw;
+}
+.about-heading
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.286vw;
+}
+.about-hash
+{
+  font-size: 2.302vw;
+  color: #c778dd;
+}
+.about-txt
+{
+  font-size: 2.302vw;
+  color: aliceblue;
+}
+.about-line
+{
+  height: 1px;
+  width: 31.25vw;
+  background-color: #c778dd;
+}
+
+/***about-section***/
+
+.about-main-container
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.302vw;
+  margin-bottom: 7.302vw;
+}
+.about-sub-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 19.25vw;
+}
+.about-design-1
+{
+  background: url(./design_assest/Rectangle\ 25.png);
+  height: 8.073vw;
+  width: 3.906vw;
+  background-size: cover;
+}
+.about-desc-box
+{
+  font-size: 1.242vw;
+  color: whitesmoke;
+  width: 28.823vw;
+}
+.about1
+{
+  color: #abb2bf;
+
+}
+.about2
+{
+    color: #abb2bf;
+
+  margin-top: 1.563vw;
+}
+.about3
+{
+  margin-top: 1.563vw;
+    color: #abb2bf;
+
+}
+.about-read-more-box
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.823vw;
+  height: 2.583vw;
+  width: 9.329vw;
+  border: 2px solid #c778dd;
+}
+.about-photo-box
+{
+  background: url(./assests/Group\ 50.png);
+  height: 26.458vw;
+  width: 17.865vw;
+  background-size: cover;
+}
+.about-design-2
+{
+  background: url(./design_assest/Dots.png);
+  height: 5.365vw;
+  width: 4.948vw;
+  background-size: cover;
+}
+
+
+
+
+/***contact-heading**/
+.contact-container
+{
+  margin-bottom: 1.563vw;
+  margin-top: 7.813vw;
+  margin-left: 17.021vw;
+  display: flex;
+  align-items: center;
+  gap: 1.781vw;
+}
+.contact-heading
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.286vw;
+}
+.contact-hash
+{
+  font-size: 2.302vw;
+  color: #c778dd;
+}
+.contact-txt
+{
+  font-size: 2.302vw;
+  color: aliceblue;
+}
+.contact-line
+{
+  height: 1px;
+  width: 31.25vw;
+  background-color: #c778dd;
+}
+
+
+
+
+.contact-main-container
+{
+  display: flex;
+  align-items: center;
+  gap: 13.938vw;
+  margin-bottom: 7.813vw;
+}
+.contact-design-1
+{
+  background: url(./design_assest/Frame\ 28.png);
+  height: 5.469vw;
+  width: 3.125vw;
+  background-size: cover;
+}
+.contact-sub-container
+{
+  display: flex;
+  align-items: center;
+  gap: 19.938vw;
+}
+.description-contact
+{
+  color: whitesmoke;
+  font-size: 1.242vw;
+  width: 26.302vw;
+    color: #abb2bf;
+
+}
+.contact-box-1
+{
+  height: 8.813vw;
+  width: 17.021vw;
+  border: 1px solid whitesmoke;
+
+}
+.text-1
+{
+  color: whitesmoke;
+  font-weight: 650;
+  font-size: 0.938vw;
+  text-align: center;
+  margin-top: 1.042vw;
+}
+.contact-twitter
+{
+  display: flex;
+  align-items: center;
+  margin-left: 0.521vw;
+  gap: 1.26vw;
+  margin-top: 1.042vw;
+
+}
+.twitter-img
+{
+  background: url(./socials/twitter\ \(3\).png);
+  height: 1.667vw;
+  width: 1.667vw;
+  background-size: cover;
+}
+.twitter-tag
+{
+  color: whitesmoke;
+  font-size: 0.938vw;
+      color: #abb2bf;
+
+}
+.contact-email
+{
+  display: flex;
+  align-items: center;
+  margin-left: 0.521vw;
+  gap: 1.26vw;
+  margin-top: 1.042vw;
+
+}
+.email-img
+{
+  background: url(./socials/mail.png);
+  height: 1.667vw;
+  width: 1.667vw;
+  background-size: cover;
+}
+.email-tag
+{
+  color: whitesmoke;
+  font-size: 0.938vw;
+      color: #abb2bf;
+
+}
+
+/****footer-section****/
+.footer-container
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
+  border-top: 1.5px solid whitesmoke;
+  padding-top: 3.125vw;
+  margin-bottom: 3.646vw;
+}
+
+.footer-sub-container-1
+{
+  display: flex;
+  gap: 5px;
+}
+.footer-logo
+{
+  background: url(./project_asset/Logo\ \(3\).png);
+  height: 0.833vw;
+  width: 0.833vw;
+  background-size: cover;
+}
+.footer-name
+{
+  font-weight: 650;
+  color: whitesmoke;
+}
+.footer-mail
+{
+  color: whitesmoke;
+  margin-left: 1.563vw;
+      color: #abb2bf;
+
+}
+.footer-desc
+{
+  font-size: 0.938vw;
+  color: whitesmoke;
+  margin-top: 0.781vw;
+}
+.footer-media
+{
+  color: whitesmoke;
+  font-size: 0.938vw;
+}
+.footer-media-container
+{
+  display: flex;
+  gap: 0.921vw;
+  margin-top: 0.781vw;
+}
+.footer-icons1
+{
+  background: url(./socials/twitter\ \(3\).png);
+  height: 1.667vw;
+  width: 1.667vw;
+  background-size: cover;
+  cursor: pointer;
+
+}
+.footer-icons2
+{
+  background: url(./socials/github\ \(5\).png);
+  height: 1.667vw;
+  width: 1.667vw;
+  background-size: cover;
+  cursor: pointer;
+
+}
+.footer-icons3
+{
+  background: url(./socials/instagram\ \(3\).png);
+  height: 1.667vw;
+  width: 1.667vw;
+  background-size: cover;
+  cursor: pointer;
+
+}
+.copyright
+{
+  color: whitesmoke;
+  text-align: center;
+  margin-bottom: 1.302vw;
+      color: #abb2bf;
+
+}
+
+
+/***media query for phones***/
+@media (max-width:768px)
+{
+  .main-container
+{
+  left: 1.302vw;
+  gap:2.604vw;
+}
+.bar
+{
+  height: 25.021vw;
+  width:1.042vw; 
+}
+.github
+{  
+  height: 4.167vw;
+  width: 4.167vw; 
+}
+.twitter
+{  
+  height: 4.167vw;
+  width: 4.167vw;
+} 
+.linkedin
+{
+  height: 4.167vw;
+  width: 4.167vw; 
+}
+
+
+
+/***navbar-component****/
+.navbar-main-container
+{
+  padding-top: 1.953vw;
+  padding-bottom:2.214vw ;
+}
+.navbar-container
+{
+  font-size: 2.083vw;
+  gap: 2.604vw;
+  width: 100vw;
+}
+.name-logo
+{
+  width: 25%;
+  gap: 1.302vw;
+  font-size: 2.604vw;
+  z-index: 105;
+
+}
+.logo
+{
+  height: 5.208vw;
+  width: 5.208vw;
+}
+.icons
+{
+  padding-right: 100px;
+  width: 75%;
+  gap: 5.646vw;
+  scale: 1.2;
+}
+.icons > *
+{
+  display: flex;
+  gap: 0.208vw;
+  font-weight: 550;
+}
+.hash
+{
+  color: plum;
+  font-weight: 550;
+}
+.text
+{
+  width: 3.906vw;
+}
+
+
+
+
+/****hero-section-1***/
+.main-container-1
+{
+  flex-direction: column;
+  margin-top:30.531vw;
+  
+}
+.description
+{
+  color: whitesmoke;
+  scale: 2.55;
+}
+.bigheading
+{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 0.521vw;
+  flex-wrap: wrap;
+  
+
+}
+.small-description
+{
+  text-align: center;
+}
+
+.picture-container
+{
+  margin-top: 30.531vw;
+  scale: 2.5;
+}
+
+
+
+/***quote-section***/
+.quote-main-container
+{
+  margin-top: 26.042vw;
+  margin-bottom: 19.531vw;
+}
+.design-1
+{
+  height:13.021vw ;
+  width: 6.51vw;
+}
+.quote-container
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.quote
+{
+  height: 9.115vw;
+  width: 56.573vw;
+  font-size: 2.344vw;
+  border: 0.078vw solid whitesmoke;
+}
+.author-container
+{
+  font-size: 2.344vw;
+  margin-top: 1.563vw;
+}
+.design-2
+{
+  height:7.813vw ;
+  width: 7.813vw;
+  border: 0.104vw double whitesmoke;
+}
+.contact
+{
+  border-width: 0.26vw;
+  margin-left: 1.302vw;
+}
+
+
+/***porject-section***/
+.project-container
+{
+  margin-bottom: 6.51vw;
+  margin-left: 13.021vw;
+  gap: 3.781vw;
+}
+.project-heading
+{
+  gap: 1.286vw;
+}
+.project-hash
+{
+  font-size: 6.302vw;
+}
+.project-txt
+{
+  font-size: 5.302vw;
+}
+.project-line
+{
+  height: 1px;
+  width: 45.25vw;
+}
+
+
+
+/***projectssection****/
+.project-design-1
+{
+  scale: 3;
+}
+.project-list
+{
+  flex-direction: column;
+}
+.project-1
+{
+  margin-top: 22.625vw;
+  scale: 3;
+}
+.project-2
+{
+  margin-top: 60.063vw;
+  scale: 3;
+}
+.project-3
+{
+  margin-top: 60.063vw;
+  scale: 3;
+}
+.project-design-2
+{
+  scale: 3;
+}
+.design-pr2
+{
+  display: none;
+}
+
+/***skills section**/
+.skills-main-container
+{
+  margin-bottom: 30vw;
+
+}
+.skill-container
+{
+  margin-top: 42.438vw;
+  margin-left: 13.021vw;
+  gap: 3.781vw;
+}
+.skill-heading
+{
+  gap: 1.286vw;
+}
+.skill-hash
+{
+  font-size: 6.302vw;
+}
+.skill-txt
+{
+  font-size: 5.302vw;
+}
+.skill-line
+{
+  height: 1px;
+  width: 45.25vw;
+}
+.skills-main-container
+{
+  flex-direction: column-reverse;
+}
+.skills-designs-1
+{
+  display: none;
+  margin-top: 3.604vw;
+}
+.skills-design-container
+{
+  scale: 3.5;
+  margin-top: 27.927vw;
+}
+.skills-box-container
+{
+  width: auto;
+  margin-top: 15.417vw;
+  scale: 2.5;
+}
+.skills-designs-2
+{
+  display: none;
+}
+
+/**about-container**/
+.about-container
+{
+  margin-top: 150px;
+  margin-bottom: 6.51vw;
+  margin-left: 13.021vw;
+  gap: 3.781vw;
+}
+.about-heading
+{
+  gap: 1.286vw;
+}
+.about-hash
+{
+  font-size: 6.302vw;
+}
+.about-txt
+{
+  font-size: 5.302vw;
+}
+.about-line
+{
+  height: 1px;
+  width: 45.25vw;
+}
+
+
+.about-main-container
+{
+  flex-direction: column;
+  margin-bottom: 180px;
+}
+.about-design-1
+{
+  display: none;
+}
+.about-design-2
+{
+  display: none;
+}
+.about-sub-container
+{
+  flex-direction: column-reverse;
+}
+.about-photo-box
+{
+  margin-top: 90px;
+  scale: 2.5;
+  margin-bottom: 80px;
+}
+.about-desc-box
+{
+  margin-top: 100px;
+  scale: 2.5;
+}
+.about-read-more-box
+{
+  border-width: 0.26vw;
+}
+
+
+
+/***about-container**/
+.contact-container
+{
+  margin-top: 140px;
+  margin-bottom: 6.51vw;
+  margin-left: 13.021vw;
+  gap: 3.781vw;
+}
+.contact-heading
+{
+  gap: 1.286vw;
+}
+.contact-hash
+{
+  font-size: 6.302vw;
+}
+.contact-txt
+{
+  font-size: 5.302vw;
+}
+.contact-line
+{
+  height: 1px;
+  width: 45.25vw;
+}
+
+.contact-main-container
+{
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+.contact-design-1{
+  display: none;
+}
+.contact-sub-container
+{
+  flex-direction: column;
+}
+.description-contact
+{
+  scale: 2.7;
+}
+.contact-box-1
+{
+  scale: 3;
+}
+.footer-container
+{
+  margin-top: 70px;
+  flex-direction: column;
+  gap: 50px;
+}
+.footer-logo
+{
+  height: 4.167vw;
+  width: 4.167vw;
+}
+.footer-container-2
+{
+  scale: 3.0;
+  margin-bottom: 20px;
+}
+.footer-media
+{
+  text-align: center;
+}
+.footer-desc
+{
+  font-size: 18px;
+}
+}
+
